@@ -1,4 +1,4 @@
-## THE PERFECT GUESS: (19th July, 2025)
+## THE PERFECT GUESS:
 
 import random
 n= random.randint(1, 101)
@@ -20,6 +20,7 @@ try:
     print(f"🎉 You have guessed the number \"{n}\" correctly in {guesses} attempts")
 
 except ValueError:
-    print('Are you blind or a stupid? I said "NUMBER"😑!!')
+    print('Are you blind? I said "NUMBER"😑!!')
 except Exception as e:
     print(e)
+
